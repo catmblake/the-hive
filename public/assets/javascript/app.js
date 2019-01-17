@@ -34,7 +34,7 @@ auth.onAuthStateChanged(firebaseUser => {
                 var professionalInterest = snapshot.val().interest3.type;
                 $("#meetup-one").text(professionalInterest);
                 //url for proxy server to make requests from apis
-                var corsAnywhereUrl = "https://serene-castle-85731.herokuapp.com/";
+                var corsAnywhereUrl = "https://cors-anywhere.herokuapp.com/";
                 // google places api key
                 var apiKey = "AIzaSyD5YTMyDlZYKKMMrlYIguDdqT68DxBrLx4"
                 //url for geocode api which converts zipcode to lattitude, longitude
